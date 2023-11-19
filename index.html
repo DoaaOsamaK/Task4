@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        nav {
+            background-color: rgb(147, 51, 221);
+            overflow: hidden;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        nav a {
+            display: flex;
+            align-items: center;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .shop-photos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 30px;
+        }
+
+        .shop-photo {
+            flex: 1 1 280px;
+            margin: 10px;
+            border: 1px solid #ddd;
+            padding: 5px;
+            text-align: center;
+        }
+
+        .shop-photo img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Shop</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="shop-photos">
+        <div class="shop-photo">
+            <img src="./img/shop (1).jpeg" alt="Shop Photo 1">
+            <p>Product 1</p>
+        </div>
+        <div class="shop-photo">
+            <img src="./img/shop (2).jpeg" alt="Shop Photo 2">
+            <p>Product 2</p>
+        </div>
+        <div class="shop-photo">
+            <img src="./img/shop (3).jpeg" alt="Shop Photo 3">
+            <p>Product 3</p>
+        </div>
+        <div class="shop-photo">
+            <img src="./img/shop (4).jpeg" alt="Shop Photo 4">
+            <p>Product 4</p>
+        </div>
+        <div class="shop-photo">
+            <img src="./img/shop (5).jpeg" alt="Shop Photo 5">
+            <p>Product 5</p>
+        </div>
+        <div class="shop-photo">
+            <img src="./img/shop (6).jpeg" alt="Shop Photo 6">
+            <p>Product 6</p>
+        </div>
+    </div>
+
+</body>
+</html>
